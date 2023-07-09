@@ -22,7 +22,7 @@
   border: none;
   text-transform: uppercase;
   cursor: pointer;
-  
+
 }
 .bg-primary{
   background-color: red;
@@ -43,6 +43,7 @@
   gap: 15px;
   font-size: 20px;
 }
+/* banner section css */
 .banner-container{
   height: 100vh;
   background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
@@ -53,4 +54,197 @@
   text-align: center;
   display: flex;
   align-items: center;
+}
+.hover:hover{
+  background-color: gainsboro;
+}
+/* service section css */
+.service-container{
+   height: 100vh;
+  background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.boxes{
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.icon-img{
+  width: 70px;
+  margin-bottom: 20px;
+}
+.service-desc{
+  width: 50%;
+}
+.all-box{
+  display: flex;
+  gap: 3px;
+  margin-top: 5px;
+}
+.author-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+.author-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.radius{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: red;
+}
+.service-btn{
+  background-color: gainsboro;
+  color: gray;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.author-button{
+  border-left: 2px solid red;
+  padding-left: 5px;
+}
+.padding{
+  padding: 15px 0px;
+}
+/* appointment css */
+.phone-cll{
+  display: flex;
+  align-items: center;
+}
+.appointment-container{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: -50px;
+  align-items: center;
+}
+.white-color{
+  color: white;
+}
+.with{
+  padding: 0px 10px;
+}
+.h-padding{
+  padding: 0px 10px;
+  border-right: 2px solid gray;
+}
+/* blog css */
+.blog-info{
+  text-align: center;
+  margin: 50px;
+}
+.blog-title{
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.card{
+  width: 220px;
+  height: 300px;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.blog-img{
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards{
+  display: flex;
+  justify-content:center;
+  gap: 15px;
+}
+/* footer css */
+.footer-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+.footer-img{
+   background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+}
+.footer-p{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.ol-style{
+  list-style: none;
+}
+.h4-padding{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.foot-img{
+  margin-bottom: 10px;
+}
+.li-padding{
+  padding: 5px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+  font-size: 20px;
 }
